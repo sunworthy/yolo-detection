@@ -1,0 +1,10 @@
+# 1. 指定你的数据集根目录绝对路径 (修改为你电脑上的实际绝对路径)
+path: ./dataset
+
+# 2. 指定训练集和验证集图片文件夹的相对路径（相对于上面的 path）
+train: images/train
+val: images/val
+
+# 3. 类别字典配置
+names:
+  0: circle1  # ID 必须与脚本中的 class_mapping 严格对应
